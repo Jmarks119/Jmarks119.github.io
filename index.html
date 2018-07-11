@@ -1,22 +1,119 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/css/site.css">
 
-		<title>Hello, world!</title>
-	</head>
-	<body>
-		<h1>Hello, world!</h1>
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="container">
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+    <div id="portfolio-landing" class="jumbotron jumbotron-fluid fill-viewport">
+        <div class="container text-center">
+            <h1 class="display-4">Jackson's Stuff</h1>
+            <p class="lead">A ceaselessly curious software developer's record of adventures</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="#about" role="button">Who Am I?</a>
+        <a class="btn btn-primary btn-lg" href="#projects" role="button">What have I worked on?</a>
+        <a class="btn btn-primary btn-lg" href="#contact" role="button">Where else can you find me?</a>
+
+    </div>
+    <div id="about" class="fill-viewport">
+        <div id="bio-card" class="row no-gutters" style="background-color: #1c7430">
+            <div class="col-lg-6"><img class="img-fluid" src="content/img/Me.jpg"></div>
+            <div id="bio-info" class="col-lg-6 text-center">
+                <div class="row no-gutters">
+                    <div class="col-12"><h1>The Man Himself</h1></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-4 border-top border-right border-dark"><h5>Age: 24</h5></div>
+                    <div class="col-8 border-top border-dark"><h5>Born and raised in Portland.</h5></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="border-top border-dark col-12 py-auto"><h6>Player of games, listener of music, solver of
+                        puzzles.</h6></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-12 border-top border-dark">
+                        <h5>Trained in the arts of:</h5>
+                        <h6>
+                            <ul>
+                                <li>Python</li>
+                                <li>.NET with C#</li>
+                                <li>Backend Frameworks: ASP.NET MVC and Django</li>
+                                <li>Frontend Stuff: HTML5, CSS3, JavaScript, Jquery</li>
+                                <li>Tools: T-SQL, Git, TFS, Visual Studio, PyCharm</li>
+                                <li>Practices: Agile/Scrum, Test Driven Development</li>
+                            </ul>
+                        </h6>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-12 border-top border-dark">
+                            <h6>
+                                Interested in opportunities in full-stack WebApp development, database design, data
+                                science and native application development.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-12 border-top border-dark">
+                            <h6>
+                                Always on the search for more to learn, new projects, interesting technologies, and
+                                comrades in arms.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="fill-viewport">
+        <div class="row tutorials my-auto">
+            <div class="col-12"><h1 class="text-center">My School/Tutorial Projects</h1></div>
+            <div class="col-md-3">
+                Blue Ribbons MVC Application
+            </div>
+            <div class="col-md-3">
+                Testing Goat Django App
+            </div>
+            <div class="col-md-3">
+                JavaScript Pizza Menu
+            </div>
+            <div class="col-md-3">
+                T-SQL Library DB
+            </div>
+        </div>
+        <div class="row personal my-auto">
+            <div class="col-12"><h1 class="text-center">My Personal Projects</h1></div>
+            <div class="col-md-4">
+                This WebPage
+            </div>
+            <div class="col-md-4">
+                GFL JavaScript App
+            </div>
+            <div class="col-md-4">
+                Syndicate Django WebApp
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="fill-viewport">
+        <div id="contact-card my-auto">
+            <ul>
+                <li>Phone Number: 503.505.2043</li>
+                <li>LinkedIn: <a>linkedin link</a></li>
+                <li>My Githubs: <a>Professional github</a> <a></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="content/js/jquery-3.3.1.js"></script>
+<script src="content/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
