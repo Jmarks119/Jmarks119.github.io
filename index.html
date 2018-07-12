@@ -8,6 +8,8 @@
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="content/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/css/site.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <title>Hello, world!</title>
 </head>
@@ -19,54 +21,59 @@
             <h1 class="display-4">Jackson's Stuff</h1>
             <p class="lead">A ceaselessly curious software developer's record of adventures</p>
         </div>
-        <a class="btn btn-primary btn-lg" href="#about" role="button">Who Am I?</a>
-        <a class="btn btn-primary btn-lg" href="#projects" role="button">What have I worked on?</a>
-        <a class="btn btn-primary btn-lg" href="#contact" role="button">Where else can you find me?</a>
+        <a class="btn btn-primary btn-lg" href="#about" role="button"><i class="far fa-id-card"></i> Who Am I?</a>
+        <a class="btn btn-primary btn-lg" href="#projects" role="button"><i class="fas fa-code"></i> What have I worked
+            on?</a>
+        <a class="btn btn-primary btn-lg" href="#contact" role="button"><i class="fas fa-at"></i> Where else can you
+            find me?</a>
 
     </div>
     <div id="about" class="fill-viewport">
-        <div id="bio-card" class="row no-gutters" style="background-color: #1c7430">
-            <div class="col-lg-6"><img class="img-fluid" src="content/img/Me.jpg"></div>
-            <div id="bio-info" class="col-lg-6 text-center">
-                <div class="row no-gutters">
-                    <div class="col-12"><h1>The Man Himself</h1></div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-4 border-top border-right border-dark"><h5>Age: 24</h5></div>
-                    <div class="col-8 border-top border-dark"><h5>Born and raised in Portland.</h5></div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="border-top border-dark col-12 py-auto"><h6>Player of games, listener of music, solver of
-                        puzzles.</h6></div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-12 border-top border-dark">
-                        <h5>Trained in the arts of:</h5>
-                        <h6>
-                            <ul>
-                                <li>Python</li>
-                                <li>.NET with C#</li>
-                                <li>Backend Frameworks: ASP.NET MVC and Django</li>
-                                <li>Frontend Stuff: HTML5, CSS3, JavaScript, Jquery</li>
-                                <li>Tools: T-SQL, Git, TFS, Visual Studio, PyCharm</li>
-                                <li>Practices: Agile/Scrum, Test Driven Development</li>
-                            </ul>
-                        </h6>
+        <div class="bio-container">
+            <div id="bio-card" class="row no-gutters" style="background-color: #1c7430">
+                <div class="col-lg-6"><img class="img-fluid" src="content/img/Me.jpg"></div>
+                <div id="bio-info" class="col-lg-6 text-center">
+                    <div class="row no-gutters">
+                        <div class="col-12"><h1>The Man Himself</h1></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-4 border-top border-right border-dark"><h5>Age: 24</h5></div>
+                        <div class="col-8 border-top border-dark"><h5>Born and raised in Portland.</h5></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="border-top border-dark col-12 py-auto"><h6>Player of games, listener of music,
+                            solver of
+                            puzzles.</h6></div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-12 border-top border-dark">
-                            <h6>
-                                Interested in opportunities in full-stack WebApp development, database design, data
-                                science and native application development.
-                            </h6>
+                            <h5>Trained in the arts of:</h5>
+                            <div class="h6">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>.NET with C#</li>
+                                    <li>Backend Frameworks: ASP.NET MVC and Django</li>
+                                    <li>Frontend Stuff: HTML5, CSS3, JavaScript, Jquery</li>
+                                    <li>Tools: T-SQL, Git, TFS, Visual Studio, PyCharm</li>
+                                    <li>Practices: Agile/Scrum, Test Driven Development</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-12 border-top border-dark">
-                            <h6>
-                                Always on the search for more to learn, new projects, interesting technologies, and
-                                comrades in arms.
-                            </h6>
+                        <div class="row no-gutters">
+                            <div class="col-12 border-top border-dark">
+                                <h6>
+                                    Interested in opportunities in full-stack WebApp development, database design, data
+                                    science and native application development.
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-12 border-top border-dark">
+                                <h6>
+                                    Always on the search for more to learn, new projects, interesting technologies, and
+                                    comrades in arms.
+                                </h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -74,33 +81,288 @@
         </div>
     </div>
     <div id="projects" class="fill-viewport">
-        <div class="row tutorials my-auto">
-            <div class="col-12"><h1 class="text-center">My School/Tutorial Projects</h1></div>
-            <div class="col-md-3">
-                Blue Ribbons MVC Application
-            </div>
-            <div class="col-md-3">
-                Testing Goat Django App
-            </div>
-            <div class="col-md-3">
-                JavaScript Pizza Menu
-            </div>
-            <div class="col-md-3">
-                T-SQL Library DB
+        <div class="project-container">
+            <div class="row tutorials projects-row my-auto">
+                <div class="col-12"><h1 class="text-center">My School/Tutorial Projects</h1></div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <a data-toggle="modal" href="#blueRibbonsModal">
+                            <img class="card-img-top" src="content/img/MVCLogo.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Ribbons MVC Live Project</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a data-toggle="modal" href="#testingGoatModal">
+                            <img class="card-img-top" src="content/img/DjangoLogo.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Testing Goat Django WebApp</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a data-toggle="modal" href="#pizzaMenuModal">
+                            <img class="card-img-top" src="content/img/JavascriptLogo.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Pizza Menu Page</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a data-toggle="modal" href="#libraryDbModal">
+                            <img class="card-img-top" src="content/img/DbIcon.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">T-SQL Library Database</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="row personal my-auto">
-            <div class="col-12"><h1 class="text-center">My Personal Projects</h1></div>
-            <div class="col-md-4">
-                This WebPage
-            </div>
-            <div class="col-md-4">
-                GFL JavaScript App
-            </div>
-            <div class="col-md-4">
-                Syndicate Django WebApp
+
+        <div class="project-container">
+            <div class="row personal projects-row my-auto">
+                <div class="col-12"><h1 class="text-center">My Personal Projects</h1></div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <a data-toggle="modal" href="#portfolioModal">
+                            <img class="card-img-top" src="content/img/MVCLogo.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Ribbons MVC Live Project</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a data-toggle="modal" href="#girlsFrontlineLogisticsModal">
+                            <img class="card-img-top" src="content/img/MVCLogo.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Ribbons MVC Live Project</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a data-toggle="modal" href="#syndicateModal">
+                            <img class="card-img-top" src="content/img/MVCLogo.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Ribbons MVC Live Project</h5>
+                            <p class="card-text">Short Description of project</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
+
+        <!-- Section for the project Modals -->
+
+        <div class="modal fade" id="blueRibbonsModal" tabindex="-1" role="dialog" aria-labelledby="blueRibbonModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="blueRibbonModalLabel">Blue Ribbons Live Project</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="testingGoatModal" tabindex="-1" role="dialog"
+             aria-labelledby="testingGoatModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="testingGoatModalLabel">Testing Goat Django WebApp</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pizzaMenuModal" tabindex="-1" role="dialog" aria-labelledby="pizzaMenuModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pizzaMenuModalLabel">Pizza Menu Javascript Page</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="libraryDbModal" tabindex="-1" role="dialog" aria-labelledby="libraryDbModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="libraryDbModalLabel">Library Database Project</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="portfolioModalLabel">This Portfolio Website</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="girlsFrontlineLogisticsModal" tabindex="-1" role="dialog"
+             aria-labelledby="girlsFrontlineLogisticsModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="girlsFrontlineLogisticsModalLabel">Girls Frontline Logistics
+                            Calculator</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="syndicateModal" tabindex="-1" role="dialog" aria-labelledby="syndicateModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="syndicateModalLabel">Library Database Project</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="content/img/MVC5Placeholder.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <p>Longer description of project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div id="contact" class="fill-viewport">
         <div id="contact-card my-auto">

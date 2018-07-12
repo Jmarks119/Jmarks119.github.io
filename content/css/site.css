@@ -2,11 +2,11 @@
 ---- Global Site Stylings ----
  */
 
-body{
+body {
     background: #3b393f;
 }
 
-.fill-viewport{
+.fill-viewport {
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -14,7 +14,7 @@ body{
     justify-content: center;
 }
 
-li{
+li {
     list-style: square;
 }
 
@@ -22,15 +22,15 @@ li{
 ---- Stylings for the portfolio landing page ----
  */
 
-#portfolio-landing{
+#portfolio-landing {
 
 }
 
-#portfolio-landing div .lead{
+#portfolio-landing div .lead {
     margin-bottom: 2rem;
 }
 
-#portfolio-landing .btn{
+#portfolio-landing .btn {
     margin: .5rem auto;
 }
 
@@ -38,27 +38,26 @@ li{
 --- Stylings for the portfolio bio page ----
  */
 
-#bio-card{
+.bio-container {
+    padding: 20px 0;
     margin: auto 0;
+}
+
+#bio-card {
     border-radius: 30px;
     overflow: hidden;
 }
 
-#about img{
-    height: auto;
-    width: 100%;
-}
-
-#bio-info{
+#bio-info {
     display: flex;
     flex-direction: column;
 }
 
-#bio-info .row{
+#bio-info .row {
     flex-grow: 1;
 }
 
-#bio-info .row div{
+#bio-info .row div {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,10 +67,56 @@ li{
 ---- Stylings for the projects page ----
  */
 
+.project-container {
+    padding: 10px 0;
+}
+
+.projects-row {
+    border-radius: 30px;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.projects-row h1 {
+    margin-bottom: 30px;
+}
+
+.projects-row a {
+    overflow: hidden;
+    height: 40%;
+    display: flex;
+    align-content: center;
+}
+
+.projects-row .card-body {
+    height: 60%;
+}
+
+.projects-row img {
+}
+
+.projects-row .card-deck {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 .tutorials {
     background: deeppink;
 }
 
-.personal{
+.personal {
     background: darkblue;
+}
+
+@media (max-width: 768px) {
+    .projects-row .card-body {
+        padding: .5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .projects-row .card {
+        max-width: 250px;
+    }
 }
