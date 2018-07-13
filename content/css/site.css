@@ -3,7 +3,7 @@
  */
 
 body {
-    background: #3b393f;
+    background: #000000;
 }
 
 .fill-viewport {
@@ -14,7 +14,7 @@ body {
     justify-content: center;
 }
 
-li {
+ul {
     list-style: square;
 }
 
@@ -23,7 +23,8 @@ li {
  */
 
 #portfolio-landing {
-
+    background: #000000;
+    color: white;
 }
 
 #portfolio-landing div .lead {
@@ -32,6 +33,9 @@ li {
 
 #portfolio-landing .btn {
     margin: .5rem auto;
+    background: #b80c09;
+    border-color: #b80c09;
+    width: 320px;
 }
 
 /*
@@ -44,13 +48,19 @@ li {
 }
 
 #bio-card {
-    border-radius: 30px;
+    border-radius: 2px;
     overflow: hidden;
+    background: #394032;
+    color: #fff;
 }
 
 #bio-info {
     display: flex;
     flex-direction: column;
+}
+
+#bio-info div {
+    border-color: white;
 }
 
 #bio-info .row {
@@ -63,19 +73,43 @@ li {
     flex-direction: column;
 }
 
+#bio-info ul {
+    list-style: none;
+}
+
+#bio-info li::before {
+    content: "▪";
+    color: #b80c09;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+#bio-info h1::after {
+    content: '';
+    border-bottom: 8px solid red;
+    position: absolute;
+    left: 30%;
+    top: 85%;
+    width: 40%;
+}
+
+#bio-info h6 {
+    padding: 0 10px;
+}
+
 /*
 ---- Stylings for the projects page ----
  */
 
 .project-container {
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .projects-row {
-    border-radius: 30px;
-    overflow: hidden;
+    border-radius: 2px;
     justify-content: center;
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 .projects-row h1 {
@@ -102,11 +136,15 @@ li {
 }
 
 .tutorials {
-    background: deeppink;
+    background: #b80c09;
 }
 
 .personal {
-    background: darkblue;
+    background: #394032;
+}
+
+.projects-row h1{
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -119,4 +157,27 @@ li {
     .projects-row .card {
         max-width: 250px;
     }
+}
+
+/*
+---- Stylings for the contact page
+ */
+
+#contact{
+    color: #fff;
+}
+
+#contact-card{
+    background: #b80c09;
+    border-radius: 2px;
+    padding: 10px 0;
+}
+
+#contact-card ul{
+    list-style: none;
+
+}
+
+#contact-card a{
+    color: #fff;
 }
