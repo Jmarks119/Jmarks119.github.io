@@ -109,18 +109,22 @@ ul {
 .projects-row {
     border-radius: 2px;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 10px 15px 0;
+}
+
+.projects-row .row {
+    justify-content: center;
+}
+
+.projects-row .card {
+    margin-bottom: 1rem;
 }
 
 .projects-row h1 {
     margin-bottom: 30px;
 }
 
-.projects-row a {
-    overflow: hidden;
-    height: 40%;
-    display: flex;
-    align-content: center;
+.projects-row .crd-img-top {
 }
 
 .projects-row .card-body {
@@ -130,21 +134,30 @@ ul {
 .projects-row img {
 }
 
-.projects-row .card-deck {
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
 .tutorials {
     background: #b80c09;
+}
+
+.tutorials .btn {
+    background: #b80c09;
+    border-color: #b80c09;
 }
 
 .personal {
     background: #394032;
 }
 
-.projects-row h1{
+.personal .btn{
+    background: #394032;
+    border-color: #394032;
+}
+
+.projects-row h1 {
     color: #fff;
+}
+
+#projects .modal img{
+    padding-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -155,7 +168,8 @@ ul {
 
 @media (min-width: 576px) {
     .projects-row .card {
-        max-width: 250px;
+        /*max-width: 250px;*/
+
     }
 }
 
@@ -163,21 +177,21 @@ ul {
 ---- Stylings for the contact page
  */
 
-#contact{
+#contact {
     color: #fff;
 }
 
-#contact-card{
+#contact-card {
     background: #b80c09;
     border-radius: 2px;
     padding: 10px 0;
 }
 
-#contact-card ul{
+#contact-card ul {
     list-style: none;
 
 }
 
-#contact-card a{
+#contact-card a {
     color: #fff;
 }
