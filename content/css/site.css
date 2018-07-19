@@ -124,14 +124,8 @@ ul {
     margin-bottom: 30px;
 }
 
-.projects-row .crd-img-top {
-}
-
 .projects-row .card-body {
     height: 60%;
-}
-
-.projects-row img {
 }
 
 .tutorials {
@@ -166,13 +160,6 @@ ul {
     }
 }
 
-@media (min-width: 576px) {
-    .projects-row .card {
-        /*max-width: 250px;*/
-
-    }
-}
-
 /*
 ---- Stylings for the contact page
  */
@@ -189,7 +176,6 @@ ul {
 
 #contact-card ul {
     list-style: none;
-
 }
 
 #contact-card a {
